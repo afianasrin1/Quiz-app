@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
-    <div className="navbar bg-slate-300 ">
+    <div className="navbar bg-slate-300 flex justify-between mx-auto py-10 px-20 ">
       <div className="navbar-start  ">
         <div className="dropdown">
           <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -21,32 +21,22 @@ const Navbar = () => {
               />
             </svg>
           </label>
-          {/* <ul
-            tabIndex={0}
-            className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
-          >
-            <li>
-              <Link>Home</Link>
-            </li>
-
-            <li>
-              <Link>StatisticsPage</Link>
-            </li>
-          </ul> */}
         </div>
-        <Link className="btn btn-ghost normal-case text-xl">Online Survey</Link>
+        <Link to="/" className="btn btn-ghost normal-case text-xl">
+          Online Survey
+        </Link>
       </div>
       <div className="navbar-center hidden lg:flex">
-        <ul className="flex ">
+        <ul className="flex space-x-10 ">
           <li>
-            <Link>Home</Link>
+            <Link to="/">Home</Link>
           </li>
 
           <li>
-            <Link>StatisticsPage</Link>
+            <Link to="/statisticsPage">StatisticsPage</Link>
           </li>
           <li>
-            <Link>Blog</Link>
+            <Link to="/blog">Blog</Link>
           </li>
         </ul>
       </div>
