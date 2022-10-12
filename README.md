@@ -1,6 +1,6 @@
 quiz-crackerz-Assignment
 
-#website link :
+#website link :https://steady-platypus-fb356a.netlify.app/
 
 #this website is about quiz there have multiple quiz for developer react, css, javscript etc
 

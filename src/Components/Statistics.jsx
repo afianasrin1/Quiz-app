@@ -6,7 +6,7 @@ const Statistics = () => {
   const statistics = useContext(QuizContext);
 
   return (
-    <div className=" bg-slate-50 py-10">
+    <div className=" bg-slate-50 py-10 h-screen">
       <div className="flex items-center flex-col ">
         <h1 className="mt-6 pb-20 text-2xl sm:mb-5 xl:max-w-7xl text-gray-900 ">
           line chart are shown in this page
