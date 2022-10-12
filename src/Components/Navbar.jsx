@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   return (
-    <div className="bg-pink-100 px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-full md:px-24 lg:px-24">
+    <div className="bg-pink-100 px-4 py-5 mx-auto  md:max-w-full lg:max-w-full md:px-24 lg:px-24">
       <div className="relative flex items-center justify-between">
         <Link
           to="/"

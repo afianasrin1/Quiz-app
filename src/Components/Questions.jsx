@@ -20,7 +20,13 @@ const Questions = ({ quizQuestion, I }) => {
     .replaceAll("</p>", " ");
   return (
     <div className=" relative md:w-9/12 mx-auto p-6 rounded bg-slate-100  mb-20">
-      <p className="">{correctAnswer}</p>
+      <p
+        className={`absolute ${
+          open ? "right-16 bg-pink-300 p-4 rounded font-bold text-lg" : "hidden"
+        }`}
+      >
+        {correctAnswer}
+      </p>
       <div className="flex justify-between">
         <div className="flex justify-between w-full">
           <p className="text-lg font-semibold">Quiz no {I} </p>
@@ -28,7 +34,7 @@ const Questions = ({ quizQuestion, I }) => {
             {questionRemovePTag}
           </p>
         </div>
-        <div onClick={() => setOpen(!open)} className="w-7 h-7">
+        <div onClick={() => setOpen(!open)} className="w-7 h-7 cursor-pointer ">
           {open ? <EyeIcon /> : <EyeSlashIcon />}
         </div>
       </div>
