@@ -2,7 +2,7 @@ import React from "react";
 import header from "../images/header.jpg";
 const Header = () => {
   return (
-    <div className=" bg-slate-100 py-10">
+    <div className=" bg-pink-50 py-10">
       <div className="flex items-center flex-col ">
         <img className="w-1/4" src={header} alt="" />
 
