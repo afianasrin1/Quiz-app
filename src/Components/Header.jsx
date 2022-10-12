@@ -7,11 +7,10 @@ const Header = () => {
         <img className="w-1/4" src={online} alt="" />
 
         <p className="mt-6 pb-2 text-2xl sm:mb-5 xl:max-w-7xl text-gray-900 ">
-          A new concept can be introduced to the students through the online
-          quiz and they will be challenged with learning new knowledge while
-          taking the quiz. The teacher can stop during a lecture and give an
-          online quiz to measure if the students are understanding the
-          information.
+          Web development is the building and maintenance of websites; it's the
+          work that happens behind the scenes to make a website look great, work
+          fast and perform well with a seamless user experience. Web developers,
+          or 'devs', do this by using a variety of coding languages.
         </p>
       </div>
 
