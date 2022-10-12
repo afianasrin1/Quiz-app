@@ -7,11 +7,11 @@ const Navbar = () => {
       <div className="relative flex items-center justify-between">
         <Link
           to="/"
-          aria-label="Online Survey"
-          title="Online Survey"
-          className="inline-flex items-center ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase"
+          aria-label="Online Quiz"
+          title=" Online Quiz"
+          className="inline-flex items-center ml-2 text-3xl font-bold tracking-wide text-gray-800  hover:text-red-500 "
         >
-          Online Survey
+          Online Quiz
         </Link>
         <ul className="flex items-center hidden space-x-8 lg:flex">
           <li>
@@ -19,7 +19,7 @@ const Navbar = () => {
               to="/home"
               aria-label="Home"
               title="Home"
-              className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+              className="font-bold text-2xl tracking-wide text-gray-700 transition-colors duration-200 hover:text-red-500"
             >
               Home
             </Link>
@@ -29,7 +29,7 @@ const Navbar = () => {
               to="/quiz"
               aria-label="Quiz"
               title="Quiz"
-              className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+              className="font-bold text-2xl tracking-wide text-gray-700 transition-colors duration-200  hover:text-red-500"
             >
               Quiz
             </Link>
@@ -40,7 +40,7 @@ const Navbar = () => {
               to="/statistics"
               aria-label="Statistics"
               title="Statistics"
-              className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+              className="font-bold text-2xl tracking-wide text-gray-700 transition-colors duration-200  hover:text-red-500"
             >
               Statistics
             </Link>
@@ -51,7 +51,7 @@ const Navbar = () => {
               to="/blog"
               aria-label="Blog"
               title="Blog"
-              className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+              className="font-bold text-2xl tracking-wide text-gray-700 transition-colors duration-200  hover:text-red-500"
             >
               Blog
             </Link>
@@ -87,11 +87,11 @@ const Navbar = () => {
                   <div>
                     <Link
                       to="/"
-                      aria-label="Online Survey"
-                      title="Online Survey"
-                      className="inline-flex items-center ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase"
+                      aria-label="Online Quiz"
+                      title="Online Quiz"
+                      className="inline-flex items-center ml-2 text-3xl font-bold tracking-wide text-gray-800  hover:text-red-500 "
                     >
-                      Online Survey
+                      Online Quiz
                     </Link>
                   </div>
                   <div>
@@ -117,7 +117,7 @@ const Navbar = () => {
                         to="/home"
                         aria-label="Home"
                         title="Home"
-                        className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                        className="font-bold text-2xl tracking-wide text-gray-700 transition-colors duration-200  hover:text-red-500"
                       >
                         Home
                       </Link>
@@ -127,7 +127,7 @@ const Navbar = () => {
                         to="/quiz"
                         aria-label="Quiz"
                         title="Quiz"
-                        className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                        className="font-bold text-2xl tracking-wide text-gray-700 transition-colors duration-200  hover:text-red-500"
                       >
                         Quiz
                       </Link>
@@ -137,7 +137,7 @@ const Navbar = () => {
                         to="/statistics"
                         aria-label=" Statistics"
                         title="Statistics"
-                        className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                        className="font-bold text-2xl tracking-wide text-gray-700 transition-colors duration-200  hover:text-red-500"
                       >
                         Statistics
                       </Link>
@@ -147,7 +147,7 @@ const Navbar = () => {
                         to="/blog"
                         aria-label="Blog"
                         title="Blog"
-                        className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                        className="font-bold text-2xl tracking-wide text-gray-700 transition-colors duration-200  hover:text-red-500"
                       >
                         Blog
                       </Link>
