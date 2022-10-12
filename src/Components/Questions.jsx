@@ -10,9 +10,9 @@ const Questions = ({ quizQuestion, I }) => {
   const answerIdentify = (innerText) => {
     const text = innerText.replaceAll(" ", "");
     if (text === answer) {
-      toast.success("your answer is correct");
+      toast.success("your answer is correct.");
     } else {
-      toast.warning("your answer is wrong !");
+      toast.warning("your answer is wrong!");
     }
   };
   const questionRemovePTag = question
