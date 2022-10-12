@@ -6,9 +6,9 @@ const Statistics = () => {
   const statistics = useContext(QuizContext);
 
   return (
-    <div>
+    <div className="bg-orange-50 mx-96 my-20 ">
       <LineChart width={800} height={300} data={statistics}>
-        <Line type="monotone" dataKey="total" stroke="#82ca9d" />
+        <Line type="monotone" dataKey="total" stroke="blue" />
         <XAxis dataKey="name" />
         <YAxis />
         <Tooltip />
