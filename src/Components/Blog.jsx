@@ -61,57 +61,32 @@ const Blog = () => {
                 </svg>
               </div>
             </a>
-            <div class="max-w-xl md:mx-auto sm:text-center lg:max-w-2xl">
-              <h2 class="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
-                <span class="relative inline-block">
-                  <svg
-                    viewBox="0 0 52 24"
-                    fill="currentColor"
-                    class="absolute top-0 left-0 z-0 hidden w-32 -mt-8 -ml-20 text-blue-gray-100 lg:w-32 lg:-ml-28 lg:-mt-10 sm:block"
-                  >
-                    <defs>
-                      <pattern
-                        id="ec5d8ef5-b853-4714-b94f-df28ec98eeb7"
-                        x="0"
-                        y="0"
-                        width=".135"
-                        height=".30"
-                      >
-                        <circle cx="1" cy="1" r=".7" />
-                      </pattern>
-                    </defs>
-                    <rect
-                      fill="url(#ec5d8ef5-b853-4714-b94f-df28ec98eeb7)"
-                      width="52"
-                      height="24"
-                    />
-                  </svg>
-                  <span class="relative">The</span>
-                </span>{" "}
-                quick, brown fox jumps over a lazy dog
-              </h2>
-              <p class="text-base text-gray-700 md:text-lg">
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                accusantium doloremque rem aperiam, eaque ipsa quae.
-              </p>
-            </div>
           </div>
           <div class="space-y-4">
-            <Item title="The quick, brown fox jumps over a lazy dog?">
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium doloremque rem aperiam, eaque ipsa quae.
+            <Item title="What is the purpose of React Router?">
+              React Router is a state container for the current location , or
+              URL. It keeps track of the location and renders different routes
+              as it changes, and it also gives you tools to update the location
+              using Link s and the history API.
             </Item>
-            <Item title="The first mate and his Skipper too will do?">
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium doloremque rem aperiam, eaque ipsa quae.
+            <Item title="How does work context api ?">
+              React.createContext() is all you need. It returns a consumer and a
+              provider. Provider is a component that as it's names suggests
+              provides the state to its children. It will hold the "store" and
+              be the parent of all the components that might need that store.
+              Consumer as it so happens is a component that consumes and uses
+              the state. More information can be found on React's documentation
+              page
             </Item>
-            <Item title="Is the Space Pope reptilian!?">
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium doloremque rem aperiam, eaque ipsa quae.
-            </Item>
-            <Item title="How much money you got on you?">
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium doloremque rem aperiam, eaque ipsa quae.
+            <Item title="write about useRef hook?">
+              The useRef Hook allows you to persist values between renders. It
+              can be used to store a mutable value that does not cause a
+              re-render when updated. It can be used to access a DOM element
+              directly. How does useRef work in React? useRef returns a mutable
+              ref object whose .current property is initialized to the passed
+              argument ( initialValue ). The returned object will persist for
+              the full lifetime of the component. Essentially, useRef is like a
+              “box” that can hold a mutable value in its .current property.
             </Item>
           </div>
         </div>
